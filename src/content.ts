@@ -3,6 +3,12 @@ export const HEADER = {
     exchangeRate: '1EUR = 4,382 PLN',
 }
 
+export const FORM = {
+    transactionInputLabel: 'Title of transaction',
+    amountInputLabel: 'Amount (in PLN)',
+    addButton: 'Add'
+}
+
 export const TABLE = {
     headings: ['Title', 'Amount(PLN)', 'Amount(EUR)', 'Options'],
     deleteButton: 'Delete',
