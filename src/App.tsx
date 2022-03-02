@@ -1,9 +1,18 @@
 import React from 'react';
+import Form from './components/Form';
+import Header from './components/Header';
+import Sum from './components/Sum';
+import Table from './components/Table';
+import './index.css'
 
-function App() {
+const App: React.FC = (): React.ReactElement => {
   return (
-    <div className="App">
-    </div>
+    <>
+      <Header />
+      <Form />
+      <Table />
+      <Sum />
+    </>
   );
 }
 
