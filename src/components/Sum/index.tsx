@@ -13,7 +13,7 @@ const Sum: React.FC = (): React.ReactElement => {
     const [ sumEur, setSumEur ] = useState(0)
 
     useEffect(() => {
-        setSumPln(sumObjectProperties(transactions, 'amountPln'))
+        setSumPln(roundNumber(sumObjectProperties(transactions, 'amountPln'), 2))
     }, [ transactions ])
 
     useEffect(() => {
