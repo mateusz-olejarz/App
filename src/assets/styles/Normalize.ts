@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 const Normalize = createGlobalStyle`
     * {
@@ -150,6 +150,6 @@ const Normalize = createGlobalStyle`
     [hidden] {
     display: none;
     }
-`;
+`
 
-export default Normalize;
+export default Normalize

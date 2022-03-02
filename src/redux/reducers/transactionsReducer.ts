@@ -1,5 +1,5 @@
-import { createSlice } from '@reduxjs/toolkit';
-import { Transaction } from '../../types';
+import { createSlice } from '@reduxjs/toolkit'
+import { Transaction } from '../../types'
 
 export interface TransactionState {
     data: Array<Transaction>;
@@ -26,18 +26,18 @@ const initialState: TransactionState = {
             amountEur: 0.58
         }
     ],
-};
+}
 
 export const transactionSlice = createSlice({
     name: 'transactions',
     initialState,
     reducers: {
         setTransactions: (state, action) => {
-            state.data = action.payload;
+            state.data = action.payload
         },
     }
-});
+})
 
-export const { setTransactions } = transactionSlice.actions;
+export const { setTransactions } = transactionSlice.actions
 
-export default transactionSlice.reducer;
+export default transactionSlice.reducer

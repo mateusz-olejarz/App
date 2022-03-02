@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 import { DEVICE } from '../../constants'
 
 export const Wrapper = styled.header`

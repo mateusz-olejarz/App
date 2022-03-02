@@ -1,8 +1,9 @@
-import React from 'react';
-import { uniqueId } from 'lodash';
-import { setTransactions } from '../../redux/reducers/transactionsReducer';
-import { useAppDispatch, useAppSelector } from '../../redux/hooks';
-import { Transaction } from '../../types';
+/* eslint-disable react/jsx-no-bind */
+import React from 'react'
+import { uniqueId } from 'lodash'
+import { setTransactions } from '../../redux/reducers/transactionsReducer'
+import { useAppDispatch, useAppSelector } from '../../redux/hooks'
+import { Transaction } from '../../types'
 import * as S from './styles'
 import * as C from '../../content'
 
@@ -12,7 +13,7 @@ const TableBody: React.FC = (): React.ReactElement => {
     const transactions = useAppSelector(state => state.transactions.data)
 
     const removeTransaction = (id: string): void => {
-        dispatch(setTransactions([...transactions].filter((el: Transaction) => el.id !== id)))
+        dispatch(setTransactions([ ...transactions ].filter((el: Transaction) => el.id !== id)))
     }
 
     return (
@@ -35,4 +36,4 @@ const TableBody: React.FC = (): React.ReactElement => {
     )
 }
 
-export default TableBody;
+export default TableBody

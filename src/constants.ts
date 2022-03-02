@@ -14,6 +14,6 @@ export const DEVICE = {
     TABLET_L: `(min-width: ${SIZES.TABLET_L})`,
     LAPTOP: `(min-width: ${SIZES.LAPTOP})`,
     DESKTOP: `(min-width: ${SIZES.DESKTOP})`,
-};
+}
 
-export const CONVERSION_RATE = 4.382;
+export const CONVERSION_RATE = 4.382

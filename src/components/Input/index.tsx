@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable react/jsx-no-bind */
+import React from 'react'
 import * as S from './styles'
 
 interface InputProps {
@@ -14,4 +15,4 @@ const Input: React.FC<InputProps> = ({ type, initialValue, setValue, isError }):
     )
 }
 
-export default Input;
+export default Input

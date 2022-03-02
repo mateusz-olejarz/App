@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 const Reset = createGlobalStyle`
     html, body, div, span, applet, object, iframe,
@@ -60,6 +60,6 @@ const Reset = createGlobalStyle`
             scroll-behavior: auto !important;
         }
     }
-`;
+`
 
-export default Reset;
+export default Reset

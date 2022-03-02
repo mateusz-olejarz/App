@@ -1,5 +1,5 @@
-import React from 'react';
-import { useAppSelector } from '../../redux/hooks';
+import React from 'react'
+import { useAppSelector } from '../../redux/hooks'
 import * as S from './styles'
 import * as C from '../../content'
 
@@ -12,4 +12,4 @@ const TableBody: React.FC = (): React.ReactElement => {
         : <></>
 }
 
-export default TableBody;
+export default TableBody

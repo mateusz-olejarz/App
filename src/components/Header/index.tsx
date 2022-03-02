@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 import * as S from './styles'
-import * as C from '../../content';
+import * as C from '../../content'
 
 
 const Header: React.FC = (): React.ReactElement => {
@@ -13,7 +13,7 @@ const Header: React.FC = (): React.ReactElement => {
                 {C.HEADER.exchangeRate}
             </p>
         </S.Wrapper>
-    );
+    )
 }
 
-export default Header;
+export default Header

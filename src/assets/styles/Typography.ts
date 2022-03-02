@@ -1,5 +1,5 @@
-import { createGlobalStyle } from "styled-components";
-import { DEVICE } from "../../constants";
+import { createGlobalStyle } from 'styled-components'
+import { DEVICE } from '../../constants'
 
 const Typography = createGlobalStyle`
     html, p, label, span, input {
@@ -40,6 +40,6 @@ const Typography = createGlobalStyle`
             font-size: 36px;
         }
     }
-`;
+`
 
-export default Typography;
+export default Typography

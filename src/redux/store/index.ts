@@ -1,11 +1,11 @@
-import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import transactionsReducer from '../reducers/transactionsReducer';
+import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit'
+import transactionsReducer from '../reducers/transactionsReducer'
 
 export const store = configureStore({
-  reducer: {
-    transactions: transactionsReducer,
-  },
-});
+    reducer: {
+        transactions: transactionsReducer,
+    },
+})
 
 export type AppDispatch = typeof store.dispatch;
 export type RootState = ReturnType<typeof store.getState>;

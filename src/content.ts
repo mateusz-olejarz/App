@@ -10,7 +10,7 @@ export const FORM = {
 }
 
 export const TABLE = {
-    headings: ['Title', 'Amount(PLN)', 'Amount(EUR)', 'Options'],
+    headings: [ 'Title', 'Amount(PLN)', 'Amount(EUR)', 'Options' ],
     deleteButton: 'Delete',
     emptyTableMessage: 'No transactions added'
 }
