@@ -2,9 +2,9 @@ import React from 'react'
 import { uniqueId } from 'lodash'
 import { setTransactions } from '../../redux/reducers/transactionsReducer'
 import { useAppDispatch, useAppSelector } from '../../redux/hooks'
-import { Transaction } from '../../types'
+import { Transaction } from '../../constants/types'
 import * as S from './styles'
-import * as C from '../../content'
+import * as C from '../../constants/content'
 
 
 const TableBody: React.FC = (): React.ReactElement => {

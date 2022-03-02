@@ -2,7 +2,7 @@ import React from 'react'
 import { uniqueId } from 'lodash'
 import { ReactComponent as Arrow } from '../../assets/images/arrow.svg'
 import * as S from './styles'
-import * as C from '../../content'
+import * as C from '../../constants/content'
 
 
 const TableHead: React.FC = (): React.ReactElement => {

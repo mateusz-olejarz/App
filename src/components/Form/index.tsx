@@ -3,11 +3,11 @@ import { uniqueId } from 'lodash'
 import { setTransactions } from '../../redux/reducers/transactionsReducer'
 import { useAppDispatch, useAppSelector } from '../../redux/hooks'
 import { roundNumber } from '../../utils/roundNumber'
-import { Transaction } from '../../types'
-import { CONVERSION_RATE } from '../../constants'
+import { Transaction } from '../../constants/types'
+import { CONVERSION_RATE } from '../../constants/constants'
 import Input from '../Input'
 import * as S from './styles'
-import * as C from '../../content'
+import * as C from '../../constants/content'
 
 
 const Form: React.FC = (): React.ReactElement => {

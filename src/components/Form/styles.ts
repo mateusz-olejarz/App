@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { DEVICE } from '../../constants'
+import { DEVICE } from '../../constants/constants'
 
 
 export const Form = styled.form`

@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
-import { DEVICE } from '../../constants'
+import { DEVICE } from '../../constants/constants'
 
 const Typography = createGlobalStyle`
     html, p, label, span, input {

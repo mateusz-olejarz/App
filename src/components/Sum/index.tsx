@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import { useAppSelector } from '../../redux/hooks'
-import { CONVERSION_RATE } from '../../constants'
+import { CONVERSION_RATE } from '../../constants/constants'
 import { sumObjectProperties } from '../../utils/sumObjectProperties'
 import { roundNumber } from '../../utils/roundNumber'
 import * as S from './styles'
-import * as C from '../../content'
+import * as C from '../../constants/content'
 
 
 const Sum: React.FC = (): React.ReactElement => {

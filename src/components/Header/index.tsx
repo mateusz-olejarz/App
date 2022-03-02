@@ -1,6 +1,6 @@
 import React from 'react'
 import * as S from './styles'
-import * as C from '../../content'
+import * as C from '../../constants/content'
 
 
 const Header: React.FC = (): React.ReactElement => {
