@@ -1,16 +1,16 @@
 import React from 'react';
-import { HEADER } from '../../content';
 import * as S from './styles'
+import * as C from '../../content';
 
 
 const Header: React.FC = (): React.ReactElement => {
     return (
         <S.Wrapper>
             <h1>
-                {HEADER.title}
+                {C.HEADER.title}
             </h1>
             <p>
-                {HEADER.exchangeRate}
+                {C.HEADER.exchangeRate}
             </p>
         </S.Wrapper>
     );

@@ -4,6 +4,7 @@ import { CONVERSION_RATE } from '../../constants';
 import { sumObjectProperties } from '../../utils/sumObjectProperties';
 import { roundNumber } from '../../utils/roundNumber';
 import * as S from './styles'
+import * as C from '../../content';
 
 
 const Sum: React.FC = (): React.ReactElement => {
@@ -21,7 +22,7 @@ const Sum: React.FC = (): React.ReactElement => {
 
     return (
         <S.Wrapper>
-            Sum: {sumPln} PLN &#40;{sumEur} EUR&#41;
+            {C.SUM.title} {sumPln} {C.SUM.baseCurrency} &#40;{sumEur} {C.SUM.foreignCurrency}&#41;
         </S.Wrapper>
     );
 }
