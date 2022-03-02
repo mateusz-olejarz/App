@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit'
-import { Transaction } from '../../types'
+import { Transaction } from '../../constants/types'
 
 
 export interface TransactionState {
