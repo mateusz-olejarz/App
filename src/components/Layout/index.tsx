@@ -4,6 +4,7 @@ import Typography from '../../assets/styles/Typography'
 import Reset from '../../assets/styles/Reset'
 import * as S from './styles'
 
+
 interface LayoutProps {
   children: React.ReactNode
 }

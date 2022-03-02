@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 
+
 interface InputProps {
     isError: boolean;
 }

@@ -4,6 +4,7 @@ import { Provider } from 'react-redux'
 import { store } from '../redux/store'
 import Table from '../components/Table'
 
+
 describe('Table tests', () => {
     it('delete transaction', () => {
     // Arrange

@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { DEVICE } from '../../constants'
 
+
 export const Wrapper = styled.div`
     margin: 24px 0 0;
 

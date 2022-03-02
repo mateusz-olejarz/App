@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { DEVICE } from '../../constants'
 
+
 export const Wrapper = styled.header`
     display: flex;
     flex-direction: column;

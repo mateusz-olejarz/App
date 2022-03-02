@@ -1,6 +1,6 @@
-/* eslint-disable react/jsx-no-bind */
 import React from 'react'
 import * as S from './styles'
+
 
 interface InputProps {
     type: string,

@@ -6,6 +6,7 @@ import Sum from './components/Sum'
 import Table from './components/Table'
 import './index.css'
 
+
 const App: React.FC = (): React.ReactElement => {
     return (
         <Layout>

@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-bind */
 import React, { useEffect, useState } from 'react'
 import { uniqueId } from 'lodash'
 import { setTransactions } from '../../redux/reducers/transactionsReducer'
@@ -20,9 +19,8 @@ const Form: React.FC = (): React.ReactElement => {
     const [ isAmountError, setIsAmountError ] = useState(false)
     const [ isError, setIsError ] = useState(false)
 
-
     useEffect(() => {
-        title && setIsTitleError(title.length < 5)
+        title && setIsTitleError(title.trim().length < 5)
     }, [ title ])
 
     useEffect(() => {
@@ -33,7 +31,6 @@ const Form: React.FC = (): React.ReactElement => {
         setIsError(isTitleError || isAmountError)
     }, [ isTitleError, isAmountError ])
 
-
     const resetInputs = (): void => {
         setTitle('')
         setAmount('')
@@ -42,10 +39,10 @@ const Form: React.FC = (): React.ReactElement => {
     const submit = (event: React.FormEvent): void => {
         event.preventDefault()
 
-        if (!isError && title && amount) {
+        if (!isError && title.trim() && amount) {
             const newTransaction: Transaction = {
                 id: uniqueId(),
-                title: title,
+                title: title.trim(),
                 amountPln: parseFloat(amount),
                 amountEur: roundNumber(parseFloat(amount) / CONVERSION_RATE, 2),
             }

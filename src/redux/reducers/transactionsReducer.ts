@@ -1,6 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 import { Transaction } from '../../types'
 
+
 export interface TransactionState {
     data: Array<Transaction>;
 }

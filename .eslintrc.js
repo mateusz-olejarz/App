@@ -47,7 +47,6 @@ module.exports = {
             }
         ],
         quotes: [ 2, 'single' ],
-        'react/jsx-no-bind': 'error',
         curly: 'warn'
     }
 }

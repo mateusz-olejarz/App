@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { DEVICE } from '../../constants'
 
+
 export const Form = styled.form`
     padding: 24px 0 32px;
     display: flex;
